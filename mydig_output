@@ -1,0 +1,64 @@
+----input----
+www.cnn.com
+----output----
+QUESTION SECTION:
+www.cnn.com                     IN      A
+
+ANSWER SECTION:
+www.cnn.com             300     IN      CNAME   cnn-tls.map.fastly.net.
+cnn-tls.map.fastly.net. 30      IN      A       146.75.35.5
+
+Query time: 38.474 msec
+WHEN: Mon Feb 20 03:51:52 2023
+----input----
+www.google.com
+----output----
+QUESTION SECTION:
+www.google.com                  IN      A
+
+ANSWER SECTION:
+www.google.com  300     IN      A       142.251.16.147
+www.google.com  300     IN      A       142.251.16.105
+www.google.com  300     IN      A       142.251.16.99
+www.google.com  300     IN      A       142.251.16.106
+www.google.com  300     IN      A       142.251.16.104
+www.google.com  300     IN      A       142.251.16.103
+
+Query time: 16.741 msec
+WHEN: Mon Feb 20 03:53:04 2023
+----input----
+iana.org
+----output----
+QUESTION SECTION:
+iana.org                        IN      A
+
+ANSWER SECTION:
+iana.org        3600    IN      A       192.0.43.8
+
+Query time: 7.807 msec
+WHEN: Mon Feb 20 03:55:44 2023
+----input----
+google.co.jp
+----output----
+QUESTION SECTION:
+google.co.jp                    IN      A
+
+ANSWER SECTION:
+google.co.jp    300     IN      A       142.251.111.94
+
+Query time: 184.135 msec
+WHEN: Mon Feb 20 04:34:00 2023
+----input----
+piazza.com
+----output----
+QUESTION SECTION:
+piazza.com                      IN      A
+
+ANSWER SECTION:
+piazza.com      60      IN      A       18.235.185.127
+piazza.com      60      IN      A       18.215.222.38
+piazza.com      60      IN      A       52.205.194.150
+piazza.com      60      IN      A       52.206.193.161
+
+Query time: 25.918 msec
+WHEN: Mon Feb 20 04:35:25 2023
