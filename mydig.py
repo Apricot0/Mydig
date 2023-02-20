@@ -83,6 +83,8 @@ if __name__ == '__main__':
     print(f"{dom}\t\t\tIN\tA")
     print()
     print("ANSWER SECTION:")
+    if len(answers) == 0:
+        print("ERROR: Unable to get the answer")
     for x in cnames:
         print(x)
     for y in answers:
