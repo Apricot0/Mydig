@@ -47,7 +47,7 @@ Enter data input: data.csv
 ```
 
 ### Analyze DNS.pdf
-This file is the analysis for the second part of the assignment. It includes procedure, data, box plots and conclusion.
+This file is the analysis. It includes procedure, data, box plots and conclusion.
 
 ### mydig_output
 An output file called “mydig_output”, that contains the expected output for running the mydig program.
